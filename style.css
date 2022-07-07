@@ -38,8 +38,8 @@ body {
     text-align: center;
     text-decoration: none;
     color: whitesmoke;
-    background-color: salmon;
-    border-color: salmon;
+    background-color: tomato;
+    border-color: tomato;
     border-radius: 5px;
     padding: 10px 20px;
     font-weight: 800;
@@ -92,12 +92,12 @@ body {
     border: 2px solid tomato;
 }
 
-#donate-now {
+.donate-now {
     text-align: center;
     text-decoration: none;
     color: whitesmoke;
-    background-color: salmon;
-    border-color: salmon;
+    background-color: tomato;
+    border-color: tomato;
     border-radius: 5px;
     padding: 10px 20px;
     font-weight: 800;
@@ -162,4 +162,35 @@ hr {
 .flex-width2-2 {
     background-color: rgba(244, 230, 127, 0.366);
     background-image: url(icons/shelter.png);
+}
+
+.bonus-section1 {
+    display: flex;
+    padding-left: 10%;
+    margin-bottom: 220px;
+}
+
+.bonus-section1-width img {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.bonus-section1-width {
+    width: 40%;
+    padding-right: 50px;
+}
+
+.header4 {
+    font-size: 35px;
+}
+
+.contribute-button {
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: tomato;
+    border-color: tomato;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 10px;
 }
