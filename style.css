@@ -58,11 +58,15 @@ body {
     font-size: 35px;
 }
 
-.section2-para-text {
+.paragraph-text {
     text-align: center;
-    color: gray;
+    color: grey;
     font-size: 15px;
     margin-left: 50px;
+}
+
+.other-amount {
+    color: gainsboro;
 }
 
 .flex-container {
@@ -102,4 +106,60 @@ body {
 
 hr {
     margin-left: 40px;
+}
+
+.header3 {
+    font-size: 25px;
+}
+
+.donate-plan-section {
+    margin-top: 120px;
+    text-align: center;
+    width: 700px;
+    margin-left: 320px;
+    margin-bottom: 50px;
+}
+
+.paragraph-text2 {
+    color: grey;
+    font-size: small;
+}
+
+.flex-container2 {
+    display: flex;
+    text-align: left;
+    width: 75%;
+    margin-left: 200px;
+    padding-left: 10px;
+    margin-bottom: 150px;
+}
+
+.flex-header3 {
+    color: black;
+}
+
+.flex-width2 {
+    width: 20%;
+    color: grey;
+    background-color: rgba(214, 231, 236, 0.466);
+    margin: 10px;
+    text-align: left;
+    padding: 80px 50px 20px 40px;
+    border-radius: 5px;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position-y: 15%;
+    background-position-x: 15%;
+    background-size: 50px;
+
+}
+
+.flex-width2-1 {
+    background-color: rgba(255, 192, 203, 0.399);
+    background-image: url(icons/Frame-1.png);
+}
+
+.flex-width2-2 {
+    background-color: rgba(244, 230, 127, 0.366);
+    background-image: url(icons/shelter.png);
 }
